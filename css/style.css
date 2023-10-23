@@ -1,0 +1,19 @@
+:root {
+    --primary-col: #1abc9c;
+    --secondary-col: #3a546d;
+    --tertiary-col: #2c3e50;
+}
+
+
+.primary-color {
+    background-color: var(--primary-col);
+}
+
+
+.secondary-color {
+    background-color: var(--secondary-col);
+}
+
+.tertiary-col {
+    background-color: var(--tertiary-col);
+}
