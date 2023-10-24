@@ -1,0 +1,31 @@
+/* COMPONENTS */
+
+.component {
+    width: 50%;
+    height: 20px;
+    position: relative;
+}
+
+.star-divide {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.component::before {
+    content: '';
+    height: 4px;
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+
+.component::after {
+    content: '';
+    height: 4px;
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}

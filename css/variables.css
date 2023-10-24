@@ -1,0 +1,23 @@
+/* VARIABLES */
+
+
+:root {
+    --ac--primary-col: #1abc9c;
+    --ac--secondary-col: #3a546d;
+    --ac--tertiary-col: #2c3e50;
+}
+
+
+.ac-primary-color {
+    background-color: var(--ac--primary-col);
+}
+
+
+
+.ac-secondary-color {
+    background-color: var(--ac--secondary-col);
+}
+
+.ac-tertiary-col {
+    background-color: var(--ac--tertiary-col);
+}
