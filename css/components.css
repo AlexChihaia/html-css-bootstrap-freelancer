@@ -29,3 +29,12 @@
     right: 10%;
     top: 50%;
 }
+
+
+
+.component-footer {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
